@@ -83,13 +83,9 @@ You can include any of the following:
 
 ### Requirements
 
-- `iverilog`
-- `vvp`
-- `gtkwave` (optional for waveform visualization)
-- Any Linux/Windows environment with basic shell
+- **Xilinx Vivado** (2020.1 or later recommended)
 
 ### Clone the repository
-
 ```sh
 git clone https://github.com/AneeshVRao/BayesianIMC-Core.git
 cd BayesianIMC-Core
@@ -99,31 +95,64 @@ cd BayesianIMC-Core
 
 ## ▶️ Usage
 
-### Run simulation
+### Open in Vivado
 
-```sh
-iverilog -o sim.out src/*.v simulation/testbench.v
-vvp sim.out
-```
+1. Launch Xilinx Vivado
+2. Select **File → Open Project**
+3. Navigate to the cloned repository and open `BayesianIMC_Core.xpr`
 
-### View waveform
+### Run Simulation
 
-```sh
-gtkwave waveform.vcd
-```
+1. In Vivado, go to **Flow Navigator → Simulation → Run Simulation**
+2. Select **Run Behavioral Simulation**
 
 ### Example testbench snippet
-
 ```verilog
-initial begin
-    clk = 0;
-    rst_n = 0;
-    #10 rst_n = 1;
-    start = 1;
-    input_data = 8'b10101010;
-    weight_select = 2'b01;
-    confidence_pattern = 8'b11110000;
-end
+module tb_bayesian_imc;
+    reg clk;
+    reg rst_n;
+    reg start;
+    reg [7:0] input_data;
+    reg [1:0] weight_select;
+    reg [7:0] confidence_pattern;
+    wire [3:0] mean_result;
+    wire [3:0] confidence_level;
+    wire done;
+    wire [2:0] current_state;
+
+    bayesian_imc_core dut (
+        .clk(clk),
+        .rst_n(rst_n),
+        .start(start),
+        .input_data(input_data),
+        .weight_select(weight_select),
+        .confidence_pattern(confidence_pattern),
+        .mean_result(mean_result),
+        .confidence_level(confidence_level),
+        .done(done),
+        .current_state_out(current_state)
+    );
+
+    always #5 clk = ~clk;
+
+    initial begin
+        clk = 0;
+        rst_n = 0;
+        start = 0;
+        input_data = 8'b0;
+        weight_select = 2'b0;
+        confidence_pattern = 8'b0;
+        #20 rst_n = 1;
+        #20;
+        input_data = 8'b10101010;
+        weight_select = 2'b00;
+        confidence_pattern = 8'b11111111;
+        start = 1;
+        #10 start = 0;
+        wait(done == 1);
+        $finish;
+    end
+endmodule
 ```
 
 ---
