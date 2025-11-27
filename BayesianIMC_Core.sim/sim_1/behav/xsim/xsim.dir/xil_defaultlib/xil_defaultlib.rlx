@@ -1,0 +1,11 @@
+0.7
+2020.2
+May 22 2025
+00:13:55
+D:/DCD LAB TRIALS/BayesianIMC_Core/BayesianIMC_Core.sim/sim_1/behav/xsim/glbl.v,1741209010,verilog,,,,glbl,,,,,,,,
+D:/DCD LAB TRIALS/BayesianIMC_Core/BayesianIMC_Core.srcs/sources_1/new/imc_core.v,1764269403,verilog,,D:/DCD LAB TRIALS/BayesianIMC_Core/BayesianIMC_Core.srcs/sources_1/new/lfsr.v,,bayesian_imc_core,,,../../../../../../2025.1/Vivado/data/rsb/busdef,,,,,
+D:/DCD LAB TRIALS/BayesianIMC_Core/BayesianIMC_Core.srcs/sources_1/new/lfsr.v,1764269312,verilog,,D:/DCD LAB TRIALS/BayesianIMC_Core/BayesianIMC_Core.srcs/sources_1/new/perturb_weight.v,,lfsr_random,,,../../../../../../2025.1/Vivado/data/rsb/busdef,,,,,
+D:/DCD LAB TRIALS/BayesianIMC_Core/BayesianIMC_Core.srcs/sources_1/new/perturb_weight.v,1764269338,verilog,,D:/DCD LAB TRIALS/BayesianIMC_Core/BayesianIMC_Core.srcs/sources_1/new/popcount.v,,weight_perturb,,,../../../../../../2025.1/Vivado/data/rsb/busdef,,,,,
+D:/DCD LAB TRIALS/BayesianIMC_Core/BayesianIMC_Core.srcs/sources_1/new/popcount.v,1764269356,verilog,,D:/DCD LAB TRIALS/BayesianIMC_Core/BayesianIMC_Core.srcs/sources_1/new/sram.v,,popcount,,,../../../../../../2025.1/Vivado/data/rsb/busdef,,,,,
+D:/DCD LAB TRIALS/BayesianIMC_Core/BayesianIMC_Core.srcs/sources_1/new/sram.v,1764269292,verilog,,D:/DCD LAB TRIALS/DCDPROJE/DCDPROJE.srcs/sim_1/new/testbench.v,,sram,,,../../../../../../2025.1/Vivado/data/rsb/busdef,,,,,
+D:/DCD LAB TRIALS/DCDPROJE/DCDPROJE.srcs/sim_1/new/testbench.v,1760415893,verilog,,,,tb_bayesian_imc,,,../../../../../../2025.1/Vivado/data/rsb/busdef,,,,,

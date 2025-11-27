@@ -1,0 +1,94 @@
+Time resolution is 1 ps
+=== BAYESIAN IMC VERIFICATION ===
+Starting simulation...
+  FSM State:       IDLE
+
+--- Test 1: High Confidence Pattern ---
+Running: dence Test
+  Input: 10101010, Weight: 00, Confidence: 11111111
+  FSM State: NIT_SAMPLE
+  FSM State: EAD_MEMORY
+  FSM State:    PERTURB
+  FSM State:    PROCESS
+  FSM State: ACCUMULATE
+  FSM State: NIT_SAMPLE
+  FSM State: EAD_MEMORY
+  FSM State:    PERTURB
+  FSM State:    PROCESS
+  FSM State: ACCUMULATE
+  FSM State: NIT_SAMPLE
+  FSM State: EAD_MEMORY
+  FSM State:    PERTURB
+  FSM State:    PROCESS
+  FSM State: ACCUMULATE
+  FSM State: NIT_SAMPLE
+  FSM State: EAD_MEMORY
+  FSM State:    PERTURB
+  FSM State:    PROCESS
+  FSM State: ACCUMULATE
+  FSM State: NIT_SAMPLE
+  FSM State: EAD_MEMORY
+  FSM State:    PERTURB
+  FSM State:    PROCESS
+  FSM State: ACCUMULATE
+  FSM State: NIT_SAMPLE
+  FSM State: EAD_MEMORY
+  FSM State:    PERTURB
+  FSM State:    PROCESS
+  FSM State: ACCUMULATE
+  FSM State: NIT_SAMPLE
+  FSM State: EAD_MEMORY
+  FSM State:    PERTURB
+  FSM State:    PROCESS
+  FSM State: ACCUMULATE
+  FSM State: NIT_SAMPLE
+  FSM State: EAD_MEMORY
+  FSM State:    PERTURB
+  FSM State:    PROCESS
+  FSM State: ACCUMULATE
+  FSM State:    ANALYZE
+  FSM State:       DONE
+  Results: Mean = 4, Confidence = 1
+  PASS: TEST PASSED
+  FSM State:       IDLE
+
+--- Test 2: Medium Confidence Pattern ---
+Running: dence Test
+  Input: 10101010, Weight: 00, Confidence: 10101010
+  FSM State: NIT_SAMPLE
+  FSM State: EAD_MEMORY
+  FSM State:    PERTURB
+  FSM State:    PROCESS
+  FSM State: ACCUMULATE
+  FSM State: NIT_SAMPLE
+  FSM State: EAD_MEMORY
+  FSM State:    PERTURB
+  FSM State:    PROCESS
+  FSM State: ACCUMULATE
+  FSM State: NIT_SAMPLE
+  FSM State: EAD_MEMORY
+  FSM State:    PERTURB
+  FSM State:    PROCESS
+  FSM State: ACCUMULATE
+  FSM State: NIT_SAMPLE
+  FSM State: EAD_MEMORY
+  FSM State:    PERTURB
+  FSM State:    PROCESS
+  FSM State: ACCUMULATE
+  FSM State: NIT_SAMPLE
+  FSM State: EAD_MEMORY
+  FSM State:    PERTURB
+  FSM State:    PROCESS
+  FSM State: ACCUMULATE
+  FSM State: NIT_SAMPLE
+  FSM State: EAD_MEMORY
+  FSM State:    PERTURB
+  FSM State:    PROCESS
+  FSM State: ACCUMULATE
+  FSM State: NIT_SAMPLE
+  FSM State: EAD_MEMORY
+  FSM State:    PERTURB
+  FSM State:    PROCESS
+  FSM State: ACCUMULATE
+  FSM State: NIT_SAMPLE
+  FSM State: EAD_MEMORY

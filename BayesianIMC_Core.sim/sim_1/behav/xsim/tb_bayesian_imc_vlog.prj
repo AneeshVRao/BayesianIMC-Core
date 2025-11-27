@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../2025.1/Vivado/data/rsb/busdef" \
+"../../../../BayesianIMC_Core.srcs/sources_1/new/imc_core.v" \
+"../../../../BayesianIMC_Core.srcs/sources_1/new/lfsr.v" \
+"../../../../BayesianIMC_Core.srcs/sources_1/new/perturb_weight.v" \
+"../../../../BayesianIMC_Core.srcs/sources_1/new/popcount.v" \
+"../../../../BayesianIMC_Core.srcs/sources_1/new/sram.v" \
+"../../../../../DCDPROJE/DCDPROJE.srcs/sim_1/new/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DCD LAB TRIALS/BayesianIMC_Core/BayesianIMC_Core.srcs/sources_1/new/imc_core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bayesian_imc_core
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DCD LAB TRIALS/BayesianIMC_Core/BayesianIMC_Core.srcs/sources_1/new/lfsr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lfsr_random
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DCD LAB TRIALS/BayesianIMC_Core/BayesianIMC_Core.srcs/sources_1/new/perturb_weight.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module weight_perturb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DCD LAB TRIALS/BayesianIMC_Core/BayesianIMC_Core.srcs/sources_1/new/popcount.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module popcount
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DCD LAB TRIALS/BayesianIMC_Core/BayesianIMC_Core.srcs/sources_1/new/sram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DCD LAB TRIALS/DCDPROJE/DCDPROJE.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_bayesian_imc
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DCD LAB TRIALS/BayesianIMC_Core/BayesianIMC_Core.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

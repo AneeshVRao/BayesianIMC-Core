@@ -1,0 +1,4 @@
+Running: xsim.dir/tb_bayesian_imc_behav/xsimk.exe -simmode gui -wdb tb_bayesian_imc_behav.wdb -simrunnum 0 -socket 51691
+Design successfully loaded
+Design Loading Memory Usage: 10824 KB (Peak: 10824 KB)
+Design Loading CPU Usage: 77 ms
