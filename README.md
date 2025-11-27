@@ -45,22 +45,25 @@ It is designed for:
 ## 📁 Repository Structure
 
 ```
-bayesian-imc-core/
-├── src/
-│   ├── bayesian_imc_core.v
-│   ├── sram_bayesian.v
-│   ├── lfsr_random.v
-│   ├── weight_perturb.v
-│   └── kogge_stone_popcount.v
-├── simulation/
-│   ├── testbench.v
-│   ├── waveform.vcd
-│   └── results.md
-├── docs/
-│   ├── block-diagram.png
-│   └── architecture.md
-├── README.md
-└── .gitignore
+BayesianIMC-Core/
+├── BayesianIMC_Core.cache/
+├── BayesianIMC_Core.hw/
+├── BayesianIMC_Core.ip_user_files/
+├── BayesianIMC_Core.sim/
+│   └── sim_1/
+│       └── behav/
+│           └── xsim/
+│               └── tb_bayesian_imc.tcl
+├── BayesianIMC_Core.srcs/
+│   └── sources_1/
+│       └── new/
+│           ├── bayesian_imc_core.v
+│           ├── sram_bayesian.v
+│           ├── lfsr_random.v
+│           ├── weight_perturb.v
+│           └── kogge_stone_popcount.v
+├── BayesianIMC_Core.xpr
+└── README.md
 ```
 
 ---
