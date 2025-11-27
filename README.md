@@ -68,17 +68,6 @@ BayesianIMC-Core/
 
 ---
 
-## 🖼️ Visuals
-
-You can include any of the following:
-
-- Architectural block diagram
-- FSM diagram
-- Waveform screenshot from GTKWave
-- Simulation output summary
-
----
-
 ## 🔧 Installation
 
 ### Requirements
@@ -167,19 +156,6 @@ Or contact the author directly.
 
 ---
 
-## 🗺️ Roadmap
-
-### Planned Enhancements
-
-- [ ] FPGA synthesis (Artix-7 recommended)
-- [ ] Timing and power estimation
-- [ ] Parameterized sample count (e.g., 16/32 samples)
-- [ ] Wider datapaths (16-bit, 32-bit)
-- [ ] Parallel IMC tiles
-- [ ] Support for custom SRAM initialization files
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome!
@@ -197,7 +173,7 @@ For developers, recommended environment setup is in `docs/architecture.md`.
 
 ## 👤 Author & Acknowledgments
 
-**Aneesh V. Rao**
+**Aneesh Venkatesha Rao**, **Akula Sahasra**, **Adhvay Shrujal**
 
 Verilog Design | Bayesian IMC Architecture | Digital Computing Systems
 
